@@ -1,0 +1,99 @@
+body {
+    background-color: #000;
+}
+
+body.bg_films {
+    background-image: url(assets/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    padding: 50px;
+    background: linear-gradient(
+        180deg,
+        rgba(0, 0, 0, 0.69) 0%,
+        rgba(0, 0, 0, 0) 100%
+    );
+}
+
+header img {
+    width: 200px;
+}
+
+div.facebook {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 13px;
+}
+
+div img.icon-facebook{
+    width: 19px;
+    height: 18px;
+    margin-right: 4px;
+}
+div span.face {
+    color: #8B8B8B;
+}
+
+div #remember input {
+    margin-right: 4px;
+}
+
+div.new-user {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+}
+
+div.question {
+    margin-right: 3px;
+    color: #8B8B8B
+}
+
+div.register a {
+    color: #fff !important;
+}
+
+div.protect {
+    margin-top: 15px;
+    color: #8B8B8B;
+    font-size: 13px;
+}
+
+#login_box {
+    height: 550px;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 4px;
+    /* margin-top: 150px; */
+}
+
+#input_login {
+    background-color: #3C3C3C;
+    color: #8B8B8B;
+    border: none;
+    font-size: 16px;
+}
+
+#remember {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 13px;
+    color: #8B8B8B;
+}
+
+#help {
+    text-decoration: none;
+    color: #8B8B8B;
+    font-size: 13px;
+}
+
+#btn_login {
+    background: #E50914;
+    color: #FFF;
+}

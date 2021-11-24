@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="bg_films">
+    <div class="container-fluid">
+      <header class="row">
+        <img src="assets/logo.png" />
+      </header>
+      <div id="login_box" class="col-4 offset-4">
+        <h1 class="text-white">Sign In</h1>
+        <br />
+        <form>
+          <input
+            id="input_login"
+            type="email"
+            class="form-control form-control-lg"
+            placeholder="Email ou phone number"
+          />
+          <br />
+          <input
+            id="input_login"
+            type="password"
+            class="form-control form-control-lg"
+            placeholder="Password"
+          />
+          <br />
+          <button id="btn_login" class="btn btn-lg btn-block">Sign In</button>
+          <div class="row mt-4">
+            <div class="col" id="remember">
+              <input type="checkbox" /> Remember me
+            </div>
+            <div class="col text-right" id="help">
+              <a href="#" id="help" >Need help?</a>
+            </div>
+          </div>
+
+          <div class="facebook">
+            <a href="#">
+                <img class="icon-facebook" src="assets/facebook.png" />
+            </a>
+            <span class="face">Login with Facebook</span>
+          </div>
+
+          <div class="new-user">
+            <div class="question">
+                <span>New to Netflix? </span>
+            </div>
+            <div class="register">
+                <a href="">Sign up now.</a>
+            </div>
+          </div>
+
+          <div class="protect">
+            <span>This page is protected by Google reCAPTCHA to ensure you're not a bot.</span>
+            <a href="#"> Learn more.</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
